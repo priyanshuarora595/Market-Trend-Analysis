@@ -1,6 +1,6 @@
 # Stock Prediction Model
 
-This repository contains a Jupyter Notebook for stock price trend analysis and prediction using Python. The notebook demonstrates data collection, preprocessing, visualization, and the application of machine learning models to predict stock prices.
+This repository contains a Jupyter Notebook for stock price trend analysis and prediction using Python. The notebook demonstrates data collection, preprocessing, visualization, and the application of machine learning models to predict stock prices. This model is trained on nifty 100 stocks.
 
 ## Features
 - Data loading and preprocessing
@@ -36,14 +36,13 @@ This repository contains a Jupyter Notebook for stock price trend analysis and p
    ```bash
    jupyter notebook
    ```
-2. Open `stock_prediction_model.ipynb` and run the cells sequentially.
+2. Open `StockPrediction_LSTM_v2.ipynb` and run the cells sequentially.
 
 ## File Structure
-- `stock_prediction_model.ipynb`: Main notebook for stock trend analysis and prediction.
+- `StockPrediction_LSTM_v2.ipynb`: Main notebook for stock trend analysis and prediction.
 
 ## Example Output
 The notebook provides:
-- Data visualizations (price trends, moving averages, etc.)
 - Model performance metrics (e.g., RMSE, MAE)
-- Predicted vs. actual stock price plots
+- Predicted value for any given stock from the symbols
 
